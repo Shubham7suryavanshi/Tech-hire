@@ -1,0 +1,24 @@
+<svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="thGrad" x1="0" y1="0" x2="44" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="55%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="thShine" x1="0" y1="0" x2="0" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="42" height="42" rx="12" fill="url(#thGrad)"/>
+  <rect x="1" y="1" width="42" height="20" rx="12" fill="url(#thShine)"/>
+  <rect x="1.5" y="1.5" width="41" height="41" rx="11.5" stroke="#ffffff" stroke-opacity="0.15"/>
+
+  <!-- code bracket left -->
+  <path d="M15.5 14L10.5 22L15.5 30" stroke="white" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- code bracket right -->
+  <path d="M28.5 14L33.5 22L28.5 30" stroke="white" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- checkmark (hire / match) -->
+  <path d="M19 22.5L21.3 25L25.5 19" stroke="white" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
