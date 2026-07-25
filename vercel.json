@@ -1,5 +1,6 @@
 {
   "buildCommand": "cd 'digital Heroes' && npm run build",
   "devCommand": "cd 'digital Heroes' && npm run dev",
-  "installCommand": "cd 'digital Heroes' && npm install"
+  "installCommand": "cd 'digital Heroes' && npm install",
+  "outputDirectory": "digital Heroes/.next"
 }
