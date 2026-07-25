@@ -3,8 +3,8 @@ import Admin from "../models/Admin";
 import bcrypt from "bcryptjs";
 
 async function seed() {
-  const email = "admin@leaddesk.com";
-  const password = "SuperSecretPassword123!";
+  const email = "shubhamsuryavanshi7643@gmail.com";
+  const password = "Rits@7643";
   
   console.log("Connecting to MongoDB database...");
   await connectDB();
