@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: tech-hire
+    runtime: node
+    rootDir: digital Heroes
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: MONGODB_URI
+        value: mongodb+srv://shubhamsuryavanshi7643_db_user:xJxlv5W7n0XYnPTH@cluster0.grta2y8.mongodb.net/?appName=Cluster0
+      - key: NEXTAUTH_SECRET
+        value: 9a4f479d28ef3c8d19ab46012e8cd20f7893c59a35e4d2bf5804ee9cdad969fe
+      - key: NEXTAUTH_URL
+        value: https://tech-hire.onrender.com
