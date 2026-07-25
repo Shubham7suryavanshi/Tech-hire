@@ -1,7 +1,5 @@
 {
   "buildCommand": "cd 'digital Heroes' && npm run build",
   "devCommand": "cd 'digital Heroes' && npm run dev",
-  "installCommand": "cd 'digital Heroes' && npm install",
-  "framework": "nextjs",
-  "rootDirectory": "digital Heroes"
+  "installCommand": "cd 'digital Heroes' && npm install"
 }
